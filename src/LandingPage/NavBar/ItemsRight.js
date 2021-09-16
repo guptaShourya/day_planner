@@ -10,14 +10,14 @@ const ItemsRight = () => {
             <Grid container direction="row" justifyContent="flex-end" alignItems="center">
                 <Grid item>
                     <Button>
-                        <Typography variant="h6" class="Lp_navbar_text">
+                        <Typography variant="h6" className="Lp_navbar_text">
                             Sign In
                         </Typography>
                     </Button>
                 </Grid>
                 <Grid item id = "Lp_signup_container">
                     <Button id = "Lp_signup_button">
-                        <Typography variant="h6" class="Lp_navbar_text" style={{ color: "white" }}>
+                        <Typography variant="h6" className="Lp_navbar_text" style={{ color: "white" }}>
                             Sign Up
                         </Typography>
                     </Button>

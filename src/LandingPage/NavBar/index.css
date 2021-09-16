@@ -7,16 +7,16 @@
 }
 
 .Lp_navbar_text {
-    font-size: 1.2vw;
-    margin: 0;
-    text-transform: capitalize;
-    font-weight: normal;
+    font-size: 1.2vw !important;
+    margin: 0 !important;
+    text-transform: capitalize !important;
+    font-weight: normal !important;
 }
 
 .Lp_navbar_name {
-    font-size: 3.2vw;
-    margin: 0;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-family: 'Great Vibes'
+    font-size: 3.2vw !important;
+    margin: 0 !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+    font-family: 'Great Vibes' !important;
 }

@@ -7,7 +7,7 @@ const Name = () => {
         <Grid item className = "Lp_items">
             <Grid container>
                 <Grid item>
-                    <Typography variant="h6" class="Lp_navbar_name">
+                    <Typography variant="h6" className="Lp_navbar_name">
                         Pascal
                     </Typography>
                 </Grid>
