@@ -1,6 +1,7 @@
 import React from "react";
 import LpImg from "./image";
 import LpText from "./text";
+import './index.css'
 import { Grid } from "@material-ui/core";
 
 const LandingPageMain = () => {

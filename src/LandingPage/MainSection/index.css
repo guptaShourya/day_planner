@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-
-.Lp_items{
+.Lp_items {
     width: 50% !important;
 }
 
-.Lp_img{
-    width : 100% !important;
+.Lp_text_container {
+    width: 50% !important;
+    padding-left: 10%;
 }
 
-.Lp_text_main{
+.Lp_img {
+    width: 100% !important;
+}
+
+.Lp_text_main {
     font-family: 'Libre Baskerville';
     width: 100%;
     letter-spacing: 0.08em;
@@ -17,10 +21,24 @@
     font-weight: 600;
 }
 
-.Lp_text_sub{
+.Lp_text_sub {
     font-family: 'Libre Baskerville';
     width: 100%;
     margin-top: 4%;
     font-size: 1.2vw;
     color: rgb(150, 150, 150);
+}
+
+#Lp_bar_container {
+    padding: 0vw 2vw;
+}
+
+#Lp_signup_container {
+    padding-left: 1.5vw;
+}
+
+#Lp_signup_button {
+    background-color: rgb(177, 255, 0);
+    padding: 6px 14px;
+    border-radius: 8px;
 }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+#Lp_navbar {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 0px 0px;
+    padding-top: 1vw;
+}
+
+.Lp_navbar_text {
+    font-size: 1.2vw;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.Lp_navbar_name {
+    font-size: 3.2vw;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Great Vibes'
+}
