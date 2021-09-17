@@ -20,3 +20,18 @@
     font-weight: bold !important;
     font-family: 'Great Vibes' !important;
 }
+
+#Lp_bar_container {
+    padding: 0vw 2vw;
+}
+
+#Lp_signup_container {
+    padding-left: 1.5vw;
+}
+
+#Lp_signup_button {
+    background-color: rgb(177, 255, 0);
+    padding: 0.54vw 1.25vw;
+    border-radius: 8px;
+    min-width: 0px;
+}
