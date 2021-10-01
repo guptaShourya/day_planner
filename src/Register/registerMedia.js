@@ -4,10 +4,8 @@ import RmButtons from "./registerMediaButtons";
 
 const RegisterMedia = ({type}) => {
     return (
-        <Grid item style = {{height : "50%"}}>
-            <Grid container direction="column" justifyContent="center" alignItems="center">
-                <RmButtons type = {type}/>
-            </Grid>
+        <Grid item style = {{marginTop : "6vw"}}>
+            <RmButtons type = {type}/>
         </Grid>
     );
 };

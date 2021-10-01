@@ -1,36 +1,17 @@
 import React from 'react';
 import { Grid } from "@material-ui/core";
+import RmText from './registerMediaText';
+import RegisterMedia from './registerMedia';
 
-const Rform = () => {
+const Form = ({type}) => {
     return (
-        <Grid item>
-            <form>
-                <h3>Sign In</h3>
-
-                <div className="form-group">
-                    <label>Email address</label>
-                    <input type="email" className="form-control" placeholder="Enter email" />
-                </div>
-
-                <div className="form-group">
-                    <label>Password</label>
-                    <input type="password" className="form-control" placeholder="Enter password" />
-                </div>
-
-                <div className="form-group">
-                    <div className="custom-control custom-checkbox">
-                        <input type="checkbox" className="custom-control-input" id="customCheck1" />
-                        <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
-                    </div>
-                </div>
-
-                <button type="submit" className="btn btn-primary btn-block">Submit</button>
-                <p className="forgot-password text-right">
-                    Forgot 
-                </p>
-            </form>
+        <Grid item id = 'loginform'>
+            <Grid container direction = "column" justifyContent = "center" alignItems = "center" style = {{marginTop: "2vw"}}>
+                <RmText type = {type}/>
+                <RegisterMedia type = {type}/>
+            </Grid>
         </Grid>
     );
 };
 
-export default Rform;
+export default Form;

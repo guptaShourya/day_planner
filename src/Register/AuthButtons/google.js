@@ -5,7 +5,7 @@ import './index.css'
 
 const GoogleButton = () => {
     return (
-        <Grid item>
+        <Grid item className = "social-buttons">
             <GoogleLoginButton/>
         </Grid>
     );
